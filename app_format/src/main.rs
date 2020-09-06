@@ -29,5 +29,7 @@ fn main() {
     // Rust even checks to make sure the correct number of arguments are
     // used.
     println!("My name is {0}, {1} {0}", "Bond", "James");
-
+    
+    let pi= 3.141527;
+    println!("PI is {:.2}", pi);
 }
