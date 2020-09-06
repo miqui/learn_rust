@@ -32,4 +32,6 @@ fn main() {
     
     let pi= 3.141527;
     println!("PI is {:.2}", pi);
+
+    println!("PI is {p:.2}", p=pi);
 }
